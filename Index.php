@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="img/gagos_games2.png" sizes="18x18">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'> </script>
-    <title>
-        Home | Gagos Games
-    </title>
+    <title> Home | Gagos Games </title>
     <style>
         * {
             box-sizing: border-box;
@@ -353,26 +351,14 @@
 </head>
 <body>
     <button onclick="topFunction()" id="myBtn" title="TOP"> <i class="fas fa-arrow-up"> </i> </button>
-    <!-- Menu -->
     <div class="topnav" id="myTopnav">
-        <a href="Index.php"> <img src="img/gagos_games2.png" title="Gagos Games" id="logo"> </a>
+        <a href="Index.php"> <img src="img/gagos_games2.png" title="Logo" id="logo"> </a>
         <a href="Index.php"> <i class="fa fa-home" style="font-size: 20px;"> </i> Home </a>
         <a href="php/Games.php"> <i class="fa fa-gamepad" style="font-size: 20px;"> </i> Games </a>
         <a href="php/Forums.php"> <i class="fas fa-comments" style="font-size: 20px;"> </i> Forums </a>
-        <!--
-        <div class="dropdown">
-            <button class="dropbtn"> More <i class="fa fa-caret-down" style="font-size: 20px;"> </i> </button>
-            <div class="dropdown-content">
-                <a href="#video"> <i class="fab fa-unity" style="font-size: 20px;"> </i> Unity </a>
-                <a href="#about_us_team"> <i class="fas fa-users" style="font-size: 20px;"> </i> Team </a>
-                <a href="#about_us_story"> <i class="fas fa-book" style="font-size: 20px;"> </i> Story </a>
-            </div>
-        </div>
-        -->
-        <a style="float: right; padding: 40px 52px;" href="php/Login.php"> <i class="fas fa-sign-in-alt" style="font-size: 20px;"> </i> Sign In </a>
-        <a href="javascript:void(0);" style="font-size: 15px;" class="icon" onclick="myFunction()"> &#9776; </a>
+        <a href="views/register.php"> <i class="fas fa-sign-in-alt" style="font-size: 20px;"> </i> Sign In </a>
+        <a href="javascript:void(0);" class="icon"> &#9776; </a>
     </div>
-
     <div class="PAP_image"> </div>
         <p id="timer"> </p>
         <a href="php/Login.php">

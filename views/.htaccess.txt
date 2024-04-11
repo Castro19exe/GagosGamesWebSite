@@ -1,0 +1,5 @@
+Options -Indexes
+#Require all granted
+#Require ip 192.168.55
+#Allow from all
+Require local
